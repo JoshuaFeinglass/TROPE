@@ -4,12 +4,9 @@
 
 Caption enhancement algorithm described in the paper "TROPE: TRaining-Free Object-Part Enhancement for Seamlessly Improving Fine-Grained Zero-Shot Image Captioning" (EMNLP 2024 Findings).
 
-arXiv: arriving October 1st
+arXiv: https://www.arxiv.org/abs/2409.19960
 
 ACL Anthology: arriving soon
-
-### Overview
-TROPE is an automatic caption evaluation metric that combines a novel semantic evaluation algorithm (SPARCS) and novel fluency evaluation algorithms (SPURTS and MIMA) for both caption-level and system-level analysis. These evaluations were developed to be generalizable and as a result demonstrate a high correlation with human judgment across many relevant datasets. See paper for more details.
 
 ### Requirements
 You can run requirements/install.sh to quickly install all the requirements in an Anaconda environment. The requirements are:
@@ -37,8 +34,8 @@ If you find this repo useful, please cite:
 @inproceedings{feinglass2024trope,
   title={TROPE: TRaining-Free Object-Part Enhancement for Seamlessly Improving Fine-Grained Zero-Shot Image Captioning},
   author={Joshua Feinglass and Yezhou Yang},
-  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) Findings},
   year={2024},
-  url={}
+  url={https://www.arxiv.org/pdf/2409.19960}
 }
 ```
