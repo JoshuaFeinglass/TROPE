@@ -74,7 +74,7 @@ def get_detector_info(base_dir,dataset):
 dataset = sys.argv[1]
 num_props = [1,5]#[2,3,4,6,7,8,9,10]
 
-frac_thres = float(sys.argv[2])#float(sys.argv[2])#float(sys.argv[2])#0.5
+frac_thres = float(sys.argv[2])
 detector_dir = 'detector_info/'
 caption_dir = 'base_captions/'
 model = sys.argv[3]#'baseline'
