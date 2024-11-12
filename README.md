@@ -23,7 +23,7 @@ You can run requirements/install.sh to quickly install all the requirements in a
 Example outputs for TROPE can be found in the results/ directory. Base captions from the VINVL+Oscar captioning pipeline for 4 fine-grained datasets (CUB, FLO, UCM, and SC) are in the base_captions/ directory. The detector_info/ directory contains the category set mappings for VINVL as well as the test set ids, attribute labels, object labels, bounding boxes, and confidence scores needed for caption enhancement of the 4 fine-grained datasets with the TROPE algorithm.
 
 #### Evaluation
-Output captions found in the results directory and reference captions are compatible can be fed directly into standard evaluation protocols (CIDEr, METEOR, and SPICE: https://github.com/tylin/coco-caption | SMURF: https://github.com/JoshuaFeinglass/SMURF).
+Output captions found in the results directory and reference captions are compatible and can be fed directly into standard evaluation protocols (CIDEr, METEOR, and SPICE: https://github.com/tylin/coco-caption | SMURF: https://github.com/JoshuaFeinglass/SMURF).
 
 ### Author/Maintainer:
 Joshua Feinglass (https://scholar.google.com/citations?user=V2h3z7oAAAAJ&hl=en)
